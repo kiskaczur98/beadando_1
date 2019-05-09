@@ -3,7 +3,6 @@
 # számokat, amelyekre kell kettőt emelni és a hatványok összege n.
 
 while True:
-
     def elso_feladat(szam):
         hatvany=0
         binaris=list(str(bin(szam)[2:]))
@@ -16,5 +15,6 @@ while True:
     try:
         n=int(input('Adj meg egy számot!'))
         print(elso_feladat(n))
+        break
     except ValueError:
         print("Nem megfelelő a megadott érték!")

@@ -11,6 +11,7 @@ while True:
             for i in range(len(binaris)-1,-1,-1):
                 if binaris[i]=='1':
                     kitevok.append(hatvany)
+                print(binaris[i],"2^",hatvany)
                 hatvany=hatvany+1
             return kitevok
 
